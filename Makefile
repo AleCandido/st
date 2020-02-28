@@ -31,6 +31,9 @@ st: $(OBJ)
 
 clean:
 	rm -f st $(OBJ) st-$(VERSION).tar.gz
+
+cleanall:
+	rm -f st $(OBJ) st-$(VERSION).tar.gz
 	rm -f config.h
 	git checkout -- config.def.h config.mk st.h x.c
 

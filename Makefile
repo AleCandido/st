@@ -31,6 +31,7 @@ st: $(OBJ)
 
 clean:
 	rm -f st $(OBJ) st-$(VERSION).tar.gz
+	rm -f config.h
 
 cleanall:
 	rm -f st $(OBJ) st-$(VERSION).tar.gz

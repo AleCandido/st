@@ -9,7 +9,7 @@
  * spacing=100 --> spacing=mono
  */
 static char *font = "hack:size=14:pixelsize=12:antialias=true:autohint=true";
-static int borderpx = 0;
+static int borderpx = 2;
 
 /* Spare fonts */
 static char *font2[] = {

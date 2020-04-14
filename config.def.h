@@ -8,8 +8,17 @@
  *
  * spacing=100 --> spacing=mono
  */
-static char *font = "Noto Mono:size=14:pixelsize=12:spacing=100;antialias=true:autohint=true";
+static char *font = "hack:size=14:pixelsize=12:antialias=true:autohint=true";
 static int borderpx = 2;
+
+/* Spare fonts */
+static char *font2[] = {
+	"Noto Mono for Powerline:pixelsize=12:antialias=true:autohint=true",
+	"Droid Sans Mono:style=Regular:pixelsize=12:antialias=true:autohint=true",
+	"Menlo:style=Regular:pixelsize=12:antialias=true:autohint=true",
+	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true",
+	"Hack Nerd Font Mono:pixelsize=12:antialias=true:autohint=true", 
+};
 
 /*
  * What program is execed by st depends of these precedence rules:

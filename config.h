@@ -7,8 +7,12 @@
  * i.e.: man fonts-conf
  *
  * spacing=100 --> spacing=mono
+ *
+ * choose font from `fc-list` (run in a shell)
+ * to try a font use `st -f "FontName"`
  */
-static char *font = "hack:size=14:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Fira Code:size=14:pixelsize=12:antialias=true:autohint=true";
+//static char *font = "Hack:size=14:pixelsize=12:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /* Spare fonts */
